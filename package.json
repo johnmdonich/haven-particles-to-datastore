@@ -1,0 +1,20 @@
+{
+  "name": "haven-particles-to-datastore",
+  "version": "0.0.1",
+  "description": "A script to insert Particle events into a Google Cloud Platform Datastore database for the haven project",
+  "private": true,
+  "author": "Jeff Eiden modified by John Donich",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^1.0.0",
+    "@google-cloud/pubsub": "^0.10.0",
+    "colors": "^1.1.2",
+    "util": "^0.10.3"
+  }
+}
